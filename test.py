@@ -6,7 +6,7 @@ resp = requests.post(
     json=json.dumps(
         {
             "query": ["who is the ceo?", "what is the vacation policy?", "what is their termination policy?"],
-            "docpath": "/media/tensorthiru/New Volume/zania_task/handbook.pdf",
+            "docpath": "handbook.pdf",
         }
     ),
 )
